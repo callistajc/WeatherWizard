@@ -50,7 +50,7 @@ namespace WeatherWizard
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Dashboard}/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

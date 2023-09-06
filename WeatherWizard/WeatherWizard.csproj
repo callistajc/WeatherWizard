@@ -9,4 +9,30 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Sidebar\" />
+    <None Remove="Views\Shared\Components\Sidebar %28copy%29\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Dashboard\" />
+    <None Remove="Areas\Dashboard\Controllers\" />
+    <None Remove="Areas\Dashboard\Models\" />
+    <None Remove="Areas\Dashboard\Views\" />
+    <None Remove="Areas\Dashboard\Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Sidebar\" />
+    <Folder Include="Views\Shared\Components\Header\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Dashboard\" />
+    <Folder Include="Areas\Dashboard\Controllers\" />
+    <Folder Include="Areas\Dashboard\Models\" />
+    <Folder Include="Areas\Dashboard\Views\" />
+    <Folder Include="Areas\Dashboard\Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+  </ItemGroup>
 </Project>
