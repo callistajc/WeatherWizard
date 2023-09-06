@@ -1,0 +1,5 @@
+﻿@media (min-width:576px) {
+    #globalScoresTable, #tableAverageScoreByRegion, #physicalTestTable {
+        display: table !important;
+    }
+}
